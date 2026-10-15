@@ -1,13 +1,12 @@
 Experiment No. 9
-Title
 
-Backtracking: 8 Queens Problem
+ TITLE  : Backtracking: 8 Queens Problem
 
-Aim
+Aim :
 
 To implement the 8 Queens Problem using the Backtracking technique and analyze its time and space complexity.
 
-Program
+Program :
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -97,18 +96,26 @@ int main()
 
     return 0;]
 
-Algorithm
+Algorithm   ;
+
 Start the program.
 Initialize an 8 × 8 chessboard with all positions set to zero.
+
 Start placing queens from the first row.
+
 Check each column in the current row to determine whether placing a queen is safe.
+
 Verify that no queen exists in the same column or either upper diagonal.
+
 If the position is safe, place a queen in that position.
+
 Recursively attempt to place a queen in the next row.
 If a solution cannot be found, remove the previously placed queen. This process is called backtracking.
+
 Continue trying other columns until a valid arrangement is found.
 When queens have been placed successfully in all eight rows, display the chessboard.
 Stop the program.
+
 Time Complexity
 Operation	Time Complexity
 Initializing the chessboard	O(N²)
